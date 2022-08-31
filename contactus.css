@@ -1,0 +1,11 @@
+.container                                                                              {display: flex;width: 50%;margin: auto;min-height: 70vh;align-items: center;background: #1ca3ec ;}
+.formcontainer                                                                          {border-radius: 5px; background-color: #1ca3ec;padding: 20px;}
+.formbutton                                                                             {height:30px;width:100px;margin: 100px 50px 0px -50px;position:relative;top:50%;left:50%;}
+input[type=text], input[type=email], select, textarea                                   {width: 100%;padding: 12px;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;margin-top: 6px;margin-bottom: 16px;resize: vertical;}
+input[type=submit]                                                                      {background-color: white;color: black;padding: 12px 20px;border: none;border-radius: 4px;cursor: pointer;}
+input[type=submit]:hover                                                                {background-color: #74ccf4;}
+.form-controller:focus                                                                     {box-shadow:none; outline:none;}
+.form-controller:invalid:focus                                                             {border-color:red;}
+.form-controller:valid:focus                                                               {border-color:green;}
+@media screen and (max-width: 1366px)                                                   { .header-container img {width: 140px; height: 110px;}}
+@media screen and (max-width: 590px)                                                    {  .header-container img{width: 100px; height: 190px;} .nav-links a{font-size: 13.5px;} .container{width: 60%;}}
