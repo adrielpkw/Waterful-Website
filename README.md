@@ -7,7 +7,11 @@ The following purposes for creating Waterful:
 3. To connect people with NGO for donations.
 
 What was used?
-HTML & CSS
-Small part of PHP
-SQL
-XAMPP for hosting the website locally
+
+1. HTML & CSS
+
+2. Small part of PHP
+
+3. SQL
+
+4. XAMPP for hosting the website locally
